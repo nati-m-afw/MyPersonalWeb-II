@@ -1,14 +1,8 @@
-body{
-    background: url("https://images.pexels.com/photos/301614/pexels-photo-301614.jpeg?crop=entropy&cs=srgb&dl=ancient-architecture-asia-bench-301614.jpg&fit=crop&fm=jpg&h=1500&w=3000") center center fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 nav a{
     font: 1.4rem "Bahnschrift Condensed";
     text-transform: uppercase;
     color: black;
-    font-weight: bold;
+ 
 }
 
 nav a:hover{
@@ -16,23 +10,25 @@ nav a:hover{
 }
 
 nav a.nav-link.brand{
+    font-weight: bold;
     margin-left: 1.8rem;
     margin-top: 2rem;
 }
 
 nav a.nav-link{
     margin-top: 1.3rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 nav ul.social{
     margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 nav li.nav-item.social-item{
-    margin-left: -0.7rem;
-    margin-right: -0.7rem;
+    margin-left: -1.7rem;
+    margin-right: -1.7rem;
 }
 
 nav .brand{
@@ -50,4 +46,22 @@ nav .social:hover{
 
 nav .social-item:hover{
     opacity: 1;
+}
+
+div .row:first-of-type{
+    margin-top: 11rem;
+}
+
+div .col-md-4{
+    margin-left: -4rem;
+    position: relative;
+    left: 9rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    div .col-md-4{
+        margin-left: 0rem;
+        left: 0rem;
+    }
 }
