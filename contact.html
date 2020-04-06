@@ -71,88 +71,70 @@
 
 
     <!-- Body -->
-    <br><br><br><br><br>
-    <table align="center">
-        <tr>
-            <td align="center">
-                <h2>CONTACT</h2>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <!-- <font face="Bahnschrift Light" size="3em"> -->
-                    <p>Always looking forward to collaborating with new people. Contact me if you've got any project ideas.</p>
-                <!-- </font> -->
-            </td>
-        </tr>
-        <tr>   
-            <td align="center">
-                <!-- <font face="Bahnschrift Light" size="3em"> -->
-                    <p>You can use social media or fill out the form below to get in touch with me.</p>
-                <!-- </font> -->
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <table align="center" cellspacing="10px">
-                    <tr>
-                        <td><a href="https://t.me/pliz_nakama"><img src="assets/img/social/telegram.png" alt="telegram" width="70px"/></a></td>
-                        <td><a href="https://github.com/nati-m-afw"><img src="assets/img/social/github.png" alt="github" width="70px" /></a></td>
-                        <td><a href="https://www.codewars.com/users/nati_mk_af"><img src="assets/img/social/codewars.png" alt="codewars" width="70px"></a></td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <br><br>
+    <div class="container-fluid col-md-8">
+        
+        <!-- Contact intro -->
+        <div class="text-center contact-intro">
+            <h2 class="pb-md-5 pb-sm-4">CONTACT</h2>
+            <p>Always looking forward to collaborating with new people. Contact me if you've got any project ideas.</p>
+            <p>You can use social media or fill out the form below to get in touch with me.</p>
+            <div class="list-group list-unstyled list-group-horizontal w-25 mx-auto pt-md-2 mb-md-3">
+                <a class="list-group-item list-group-item-action border-0" href="https://t.me/pliz_nakama"><img src="assets/img/social/telegram.png" alt="telegram" width="60px"/></a>
+                <a class="list-group-item list-group-item-action border-0" href="https://github.com/nati-m-afw"><img src="assets/img/social/github.png" alt="github" width="60px" /></a>
+                <a class="list-group-item list-group-item-action border-0" href="https://www.codewars.com/users/nati_mk_af"><img src="assets/img/social/codewars.png" alt="codewars" width="60px"></a>
+            </div>
+        </div>    
+        
 
-    <!-- Form -->
-    <!-- <font face="Bahnschrift Light" size="3em"> -->
-    <form action="mailto: google@gmail.com" method="GET" enctype="utf-8">
-        <table align="center" cellspacing=10px>
-            <tr>
-                <td><label for="name">Name*</label></td>
-            </tr>
-            <tr>
-                <td><input type="text" size="50%" name="fname" id="fname" pattern="(?=.*[A-Z])(?=.*[a-z]).{2,}" title="Must contain at least one uppercase and one lowercase letter" required></td>
-                <td><input type="text" size="50%" name="sname" id="sname" pattern="(?=.*[A-Z])(?=.*[a-z]).{2,}" title="Must contain at least one uppercase and one lowercase letter" required></td>
-            </tr>
-            <tr>
-                <td>
-                    <!-- <font size="1em"> -->
-                    First Name
-                    <!-- </font> -->
-                </td>
-                <td>
-                    <!-- <font size="1em"> -->
-                        Last Name
-                    <!-- </font> -->
-                </td>
-            </tr>
-            <tr>
-                <td><label for="email">Email*</label></td>
-            </tr>
-            <tr>
-                <td colspan="2"><input type="email" size="108" name="email" id="email" required></td>
-            </tr>
-            <tr>
-                <td><label for="sub">Subject*</label></td>
-            </tr>
-            <tr>
-                <td colspan="2"><input type="text" size="108" name="sub" id="sub" required></td>
-            </tr>
-            <tr>
-                <td><label for="msg">Messgae*</label></td>
-            </tr>
-            <tr>
-                <td colspan="2"><textarea name="msg" id="msg" cols="100" rows="6" requiredg></textarea></td>
-            </tr>
-            <tr>
-                <td><button type="submit">Submit</button></td>
-            </tr>
-        </table>
-    </form>
-    <!-- </font> -->
+        <!-- Form -->
+        <!-- <font face="Bahnschrift Light" size="3em"> -->
+        <form action="mailto: google@gmail.com" method="GET" enctype="utf-8">
+            <table align="center" cellspacing=10px>
+                <tr>
+                    <td><label for="name">Name*</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" size="50%" name="fname" id="fname" pattern="(?=.*[A-Z])(?=.*[a-z]).{2,}" title="Must contain at least one uppercase and one lowercase letter" required></td>
+                    <td><input type="text" size="50%" name="sname" id="sname" pattern="(?=.*[A-Z])(?=.*[a-z]).{2,}" title="Must contain at least one uppercase and one lowercase letter" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- <font size="1em"> -->
+                        First Name
+                        <!-- </font> -->
+                    </td>
+                    <td>
+                        <!-- <font size="1em"> -->
+                            Last Name
+                        <!-- </font> -->
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email*</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="email" size="108" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="sub">Subject*</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" size="108" name="sub" id="sub" required></td>
+                </tr>
+                <tr>
+                    <td><label for="msg">Messgae*</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><textarea name="msg" id="msg" cols="100" rows="6" requiredg></textarea></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Submit</button></td>
+                </tr>
+            </table>
+        </form>
+
+
+    </div>
 
 </body>
 </html>
