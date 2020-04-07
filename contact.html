@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Contact - Natnael Mekonnen</title>
     <link rel="icon" href="assets/img/icon.png">
@@ -71,14 +71,14 @@
 
 
     <!-- Body -->
-    <div class="container-fluid col-md-8">
+    <div class="container-fluid col-md-7">
         
         <!-- Contact intro -->
         <div class="text-center contact-intro">
             <h2 class="pb-md-5 pb-sm-4">CONTACT</h2>
             <p>Always looking forward to collaborating with new people. Contact me if you've got any project ideas.</p>
             <p>You can use social media or fill out the form below to get in touch with me.</p>
-            <div class="list-group list-unstyled list-group-horizontal w-25 mx-auto pt-md-2 mb-md-3">
+            <div class="list-group list-unstyled list-group-horizontal w-25 mx-auto pt-md-2 mb-md-3 contact-social">
                 <a class="list-group-item list-group-item-action border-0" href="https://t.me/pliz_nakama"><img src="assets/img/social/telegram.png" alt="telegram" width="60px"/></a>
                 <a class="list-group-item list-group-item-action border-0" href="https://github.com/nati-m-afw"><img src="assets/img/social/github.png" alt="github" width="60px" /></a>
                 <a class="list-group-item list-group-item-action border-0" href="https://www.codewars.com/users/nati_mk_af"><img src="assets/img/social/codewars.png" alt="codewars" width="60px"></a>
@@ -89,48 +89,30 @@
         <!-- Form -->
         <!-- <font face="Bahnschrift Light" size="3em"> -->
         <form action="mailto: google@gmail.com" method="GET" enctype="utf-8">
-            <table align="center" cellspacing=10px>
-                <tr>
-                    <td><label for="name">Name*</label></td>
-                </tr>
-                <tr>
-                    <td><input type="text" size="50%" name="fname" id="fname" pattern="(?=.*[A-Z])(?=.*[a-z]).{2,}" title="Must contain at least one uppercase and one lowercase letter" required></td>
-                    <td><input type="text" size="50%" name="sname" id="sname" pattern="(?=.*[A-Z])(?=.*[a-z]).{2,}" title="Must contain at least one uppercase and one lowercase letter" required></td>
-                </tr>
-                <tr>
-                    <td>
-                        <!-- <font size="1em"> -->
-                        First Name
-                        <!-- </font> -->
-                    </td>
-                    <td>
-                        <!-- <font size="1em"> -->
-                            Last Name
-                        <!-- </font> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="email">Email*</label></td>
-                </tr>
-                <tr>
-                    <td colspan="2"><input type="email" size="108" name="email" id="email" required></td>
-                </tr>
-                <tr>
-                    <td><label for="sub">Subject*</label></td>
-                </tr>
-                <tr>
-                    <td colspan="2"><input type="text" size="108" name="sub" id="sub" required></td>
-                </tr>
-                <tr>
-                    <td><label for="msg">Messgae*</label></td>
-                </tr>
-                <tr>
-                    <td colspan="2"><textarea name="msg" id="msg" cols="100" rows="6" requiredg></textarea></td>
-                </tr>
-                <tr>
-                    <td><button type="submit">Submit</button></td>
-                </tr>
-            </table>
+            
+            <div class="form-inline mb-4">
+                <label class="w-100" for="name">Name*</label><br>
+                <input class="form-control bg-light text-dark w-50 mr-md-3" type="text" name="fname" id="fname" pattern="(?=.*[A-Z])(?=.*[a-z]).{2,}" title="Must contain at least one uppercase and one lowercase letter" required>
+                <input class="form-control bg-light text-dark w-50" type="text" name="sname" id="sname" pattern="(?=.*[A-Z])(?=.*[a-z]).{2,}" title="Must contain at least one uppercase and one lowercase letter" required>
+                <label class="w-50" for="fname">First Name</label>
+                <label class="w-50" for="sname">Last Name</label>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email*</label>
+                <input class="form-control bg-light text-dark" type="email" size="108" name="email" id="email" required>
+            </div>
+            <div class="form-group pt-3">
+                <label for="sub">Subject*</label>
+                <input class="form-control bg-light text-dark" type="text" size="108" name="sub" id="sub" required>
+            </div>
+            <div class="form-group pt-3">
+                <label for="msg">Messgae*</label>
+                <textarea class="form-control bg-light text-dark" name="msg" id="msg" cols="100" rows="6" requiredg></textarea>
+            </div>
+            <div class="form-group mb-md-5 mt-4 pt-md-2 pb-md-5">
+                <button class="btn btn-square btn-outline-dark btn-lg" type="submit">Submit</button>
+            </div>
         </form>
 
 

@@ -32,7 +32,7 @@ nav li.nav-item.social-item{
 }
 
 nav .brand{
-    font-size: 2.9rem;
+    font-size: 3.2rem;
 }
 
 nav .brand-detail{
@@ -71,6 +71,40 @@ div .contact-intro{
     margin-bottom: 3rem;
 }
 
+div.form-inline > label{
+    justify-content: left;
+}
+
+div.form-inline > label.w-50{
+    font-size: 0.75rem;
+}
+
+div.form-inline > input.w-50:first-of-type{
+    width: 48%!important;
+}
+
+.btn-outline-dark{
+    border-width: 2px;
+    border-radius: 0%;
+    border-color: #222;
+    color: #222;
+    text-transform: uppercase;
+    padding: 14px 35px;
+    /* font-family: sofia-pro; */
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.9rem;
+    letter-spacing: .1em;
+}
+
+.btn-outline-dark:hover{
+    background-color: #222;
+    border-color: #222;
+}
+
+
+
+
 @media only screen and (max-width: 600px) {
     div .col-md-4{
         margin-left: 0rem;
@@ -88,5 +122,14 @@ div .contact-intro{
 
     a.list-group-item.list-group-item-action.border-0{
         padding: 0.8rem;
+    }
+
+    div.form-inline > input.w-50:first-of-type{
+        margin-right: 1rem;
+        width: 45%!important;
+    }
+
+    div.contact-social{
+        width: 100%!important;
     }
 }
