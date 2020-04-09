@@ -48,6 +48,32 @@ nav .social-item:hover{
     opacity: 1;
 }
 
+footer{
+    background-color: whitesmoke;
+    margin-top: 12rem;
+}
+
+footer > nav > a{
+    font-size: 1.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+footer > nav > a:hover{
+    color: #aaa;
+    text-decoration: none;
+}
+
+footer > div.social{
+    display: flex;
+    flex-direction: row;
+}
+
+div.footer-copyright{
+    background-color: #222;
+    color: whitesmoke;
+}
+
 div .row:first-of-type{
     margin-top: 11rem;
 }
@@ -102,6 +128,12 @@ div.form-inline > input.w-50:first-of-type{
     border-color: #222;
 }
 
+#fancy-hr{
+    border: 4px solid #222;
+    border-radius: 20%;
+    margin-left: 25rem;
+    margin-right: 25rem;
+}
 
 
 
@@ -131,5 +163,11 @@ div.form-inline > input.w-50:first-of-type{
 
     div.contact-social{
         width: 100%!important;
+    }
+
+    footer > nav > a{
+        display: block;
+        text-align: center;
+        padding: 0.6rem;    
     }
 }
