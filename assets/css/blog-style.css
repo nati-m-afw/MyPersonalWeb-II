@@ -1,23 +1,38 @@
-section{
+div.card{
     font-family: Arial, Helvetica, sans-serif;
-    padding: 5px 30px;
-    border-bottom: solid 5px;
     position: relative;
-    top: 40px;
-    margin-top: 50px;
+    top: 2.5rem;
+    margin-top: 3.125rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     contain: content;
 }
 
-article{
-    font-size: 15px;
-    line-height: 20px;
-    text-align: justify;
-    padding: 0px 30px;
+div.card:first-of-type{
+    top: 7rem;
+    margin-bottom: 7.625rem;
 }
 
-p{
+div.card-header{
+    padding: 0.3125rem 1.875rem;
+    padding-top: 1rem;
+}
+
+div.card-body{
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    text-align: justify;
+    padding: 3rem 1.875rem;
+}
+
+div.card-body p{
     font-size: 1.1rem;
     line-height: 2.25rem;
+}
+
+div.card-footer{
+    padding: 0.3125rem 1.875rem;
+    padding-top: 1rem;
 }
 
 em{
@@ -25,26 +40,35 @@ em{
     font-style: normal;
 }
 
-a:hover{
+p > a:hover{
     background-color: whitesmoke;
-    padding: 8px;
+    padding: 0.5rem;
     border-radius: 10%;
 }
 
 .title{
-    font-size: 23px;
+    font-size: 1.4375rem;
     font-weight: bold;
 }
 
 .date{
-    font-size: 12px;
+    font-size: 0.75rem;
     font-style: italic;
     text-transform: uppercase;
-    line-height: 35px;
+    line-height: 2.1875rem;
 }
 
 #intro{
     position: relative;
-    top: 70px;
+    top: 4.375rem;
     padding-bottom: 15%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    div.card{
+        margin-left: 1.3rem;
+        margin-right: 1.3rem;
+    }
 }
