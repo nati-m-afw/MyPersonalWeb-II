@@ -1,5 +1,6 @@
 nav a{
-    font: 1.4rem "Bahnschrift Condensed";
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
     text-transform: uppercase;
     color: black;
  
@@ -40,11 +41,11 @@ nav .brand-detail{
     font-family: "Century Gothic";
 }
 
-nav .social:hover{
+nav .social:hover > .social-item{
     opacity: 0.3;
 }
 
-nav .social-item:hover{
+nav .social:hover > .social-item:hover{
     opacity: 1;
 }
 
@@ -169,5 +170,30 @@ div.form-inline > input.w-50:first-of-type{
         display: block;
         text-align: center;
         padding: 0.6rem;    
+    }
+
+    #fancy-hr{
+        border: 4px solid #222;
+        border-radius: 30%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    div.form-inline > input.w-50:first-of-type{
+        margin-right: 1rem;
+        width: 45%!important;
+    }
+
+    div.contact-social{
+        width: 100%!important;
+    }
+
+    #fancy-hr{
+        border: 4px solid #222;
+        border-radius: 20%;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 }
