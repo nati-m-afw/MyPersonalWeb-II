@@ -14,13 +14,16 @@ div.card:first-of-type{
 }
 
 div.card-header{
+    background-color: #222;
+    color: whitesmoke;
     padding: 0.3125rem 1.875rem;
     padding-top: 1rem;
 }
 
 div.card-body{
+    background-color: whitesmoke;
     font-size: 0.9375rem;
-    line-height: 1.25rem;
+    line-height: 1.05rem;
     text-align: justify;
     padding: 3rem 1.875rem;
 }
@@ -31,6 +34,8 @@ div.card-body p{
 }
 
 div.card-footer{
+    background-color: #222;
+    color: whitesmoke;
     padding: 0.3125rem 1.875rem;
     padding-top: 1rem;
 }
