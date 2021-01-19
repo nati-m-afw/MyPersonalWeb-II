@@ -27,9 +27,9 @@ nav ul.social{
     margin-right: 2rem;
 }
 
-nav li.nav-item.social-item{
-    margin-left: -1.7rem;
-    margin-right: -1.7rem;
+nav li.nav-item.social-item a.nav-link{
+    margin-left: 0rem!important;
+    margin-right: 0rem!important;
 }
 
 nav .brand{
@@ -234,9 +234,9 @@ div.form-inline > input.w-50:first-of-type{
         margin-right: 2rem;
     }
     
-    nav li.nav-item.social-item{
-        margin-left: -1.7rem;
-        margin-right: -1.7rem;
+    nav li.nav-item.social-item a.nav-link{
+        margin-left: 0rem!important;
+        margin-right: 0rem!important;
     }
     
     nav .brand{
