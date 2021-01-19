@@ -49,6 +49,10 @@ nav .social:hover > .social-item:hover{
     opacity: 1;
 }
 
+nav .navbar-toggler{
+    background-color: white;
+}
+
 footer{
     background-color: whitesmoke;
     margin-top: 12rem;
@@ -180,7 +184,69 @@ div.form-inline > input.w-50:first-of-type{
     }
 }
 
+@media only screen and (max-width: 767px){
+    nav .navbar-collapse {
+        position: fixed;
+        top: 7rem;
+        background-color: white;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        width: 50%;
+        height: 100%;
+    }
+
+    nav .navbar-collapse.collapsing {
+        left: -50%;
+        transition: height 0s ease;
+    }
+
+    nav .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+    }
+
+    nav .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
+    nav a{
+        font-size: 1.25rem;
+    }
+    
+    nav a.nav-link.brand{
+        font-weight: bold;
+        margin-left: 0.9rem;
+        margin-top: 1rem;
+    }
+    
+    nav a.nav-link{
+        margin-top: 0.5rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        /* float: right; */
+    }
+    
+    nav ul.social{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    nav li.nav-item.social-item{
+        margin-left: -1.7rem;
+        margin-right: -1.7rem;
+    }
+    
+    nav .brand{
+        font-size: 1.6rem;
+    }
+    
+    nav .brand-detail{
+        font-size: 0.5rem;
+    }
+
     div.form-inline > input.w-50:first-of-type{
         margin-right: 1rem;
         width: 45%!important;
