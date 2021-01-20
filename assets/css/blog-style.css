@@ -1,4 +1,4 @@
-div.card{
+/* div.card{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     top: 2.5rem;
@@ -76,4 +76,21 @@ p > a:hover{
         margin-left: 1.3rem;
         margin-right: 1.3rem;
     }
+} */
+
+div .card{
+    margin:1rem 8.5%;
+    border: 0rem;
+}
+
+div .card a{
+    font-size: 0.8em;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+div .card a:hover{
+    text-decoration: none;
+    opacity: 0.6;
 }

@@ -142,6 +142,13 @@ div.form-inline > input.w-50:first-of-type{
 
 
 
+@media only screen and (max-width: 295px){
+    nav .navbar-toggler{
+        position: relative;
+        left: 80%;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     div .col-md-4{
         margin-left: 0rem;
