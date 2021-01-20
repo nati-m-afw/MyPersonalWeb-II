@@ -29,3 +29,8 @@ div .card .date{
     padding-bottom: 1rem;
     text-transform: uppercase;
 }
+
+h4.card-title a{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 2.1rem;
+}
