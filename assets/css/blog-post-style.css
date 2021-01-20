@@ -24,7 +24,7 @@ article p{
     line-height: 2rem;
 }
 
-article p, h1, h2, h4{
+article p, h1, article h2, h4{
     margin: 8% 0;
 }
 
