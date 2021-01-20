@@ -1,96 +1,31 @@
-/* div.card{
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    top: 2.5rem;
-    margin-top: 3.125rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    contain: content;
-}
-
-div.card:first-of-type{
-    top: 7rem;
-    margin-bottom: 7.625rem;
-}
-
-div.card-header{
-    background-color: #222;
-    color: whitesmoke;
-    padding: 0.3125rem 1.875rem;
-    padding-top: 1rem;
-}
-
-div.card-body{
-    background-color: whitesmoke;
-    font-size: 0.9375rem;
-    line-height: 1.05rem;
-    text-align: justify;
-    padding: 3rem 1.875rem;
-}
-
-div.card-body p{
-    font-size: 1.1rem;
-    line-height: 2.25rem;
-}
-
-div.card-footer{
-    background-color: #222;
-    color: whitesmoke;
-    padding: 0.3125rem 1.875rem;
-    padding-top: 1rem;
-}
-
-em{
-    font-family: 'Courier New', Courier, monospace;
-    font-style: normal;
-}
-
-p > a:hover{
-    background-color: whitesmoke;
-    padding: 0.5rem;
-    border-radius: 10%;
-}
-
-.title{
-    font-size: 1.4375rem;
-    font-weight: bold;
-}
-
-.date{
-    font-size: 0.75rem;
-    font-style: italic;
-    text-transform: uppercase;
-    line-height: 2.1875rem;
-}
-
-#intro{
-    position: relative;
-    top: 4.375rem;
-    padding-bottom: 15%;
-}
-
-
-
-@media only screen and (max-width: 600px) {
-    div.card{
-        margin-left: 1.3rem;
-        margin-right: 1.3rem;
-    }
-} */
-
 div .card{
     margin:1rem 8.5%;
     border: 0rem;
 }
 
 div .card a{
+    color: black;
+}
+
+div .card a:hover{
+    text-decoration: none;
+}
+
+div .blog-link{
     font-size: 0.8em;
     color: black;
     font-weight: 500;
     text-transform: uppercase;
 }
 
-div .card a:hover{
+div .blog-link:hover{
     text-decoration: none;
     opacity: 0.6;
+}
+
+div .card .date{
+    font-size: 0.8rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
 }
